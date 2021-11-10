@@ -9,7 +9,7 @@ a{
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .logo-1{
@@ -107,6 +107,62 @@ a{
     /* padding: 0; */
 }
 
+.banner-title{
+    font-size: 3.4375rem !important;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#ff1d1d, #4d07bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p.tagline-text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.take-map-button{
+    outline: 0;
+    border: 0;
+    margin-top: 2rem;
+}
+
+.address-contact-text p{
+    font-size: 1.3rem;
+    margin: 0;
+    line-height: 2rem;
+}
+
+@media only screen and (max-width: 768px){
+    .s-header__navbar-row{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .social-contacts{
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    p.tagline-text{
+        font-size: 1.5rem;
+    }
+
+    .address-contact-text p{
+        font-size: 1rem;
+    }
+}
 
 @media only screen and (max-width: 375px){
     .fa-icon-background{
