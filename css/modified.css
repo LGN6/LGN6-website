@@ -139,8 +139,10 @@ p.tagline-text{
 @media only screen and (max-width: 768px){
     .s-header__navbar-row{
         display: flex;
-        flex-flow: column;
-        align-items: flex-start;
+/*         flex-flow: column; */
+        flex-flow: row;
+/*         align-items: flex-start; */
+        align-items: center;
         justify-content: center;
         width: 100%;
     }
@@ -150,13 +152,14 @@ p.tagline-text{
         display: flex;
         flex-flow: row;
         align-items: center;
-        justify-content: flex-start;
+/*         justify-content: flex-start; */
+        justify-content: flex-end;
     }
 }
 
 @media only screen and (max-width: 425px){
     p.tagline-text{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .address-contact-text p{
