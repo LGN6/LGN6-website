@@ -124,6 +124,7 @@ p.tagline-text{
     align-items: center;
     justify-content: flex-start;
     line-height: 100%!important;
+    margin-bottom: 0!important;
 }
 
 .take-map-button{
