@@ -10,6 +10,7 @@ a{
     flex-flow: row;
     align-items: center;
     justify-content: flex-start;
+    line-height: 100%!important;
 }
 
 .logo-1{
@@ -122,6 +123,7 @@ p.tagline-text{
     flex-flow: row;
     align-items: center;
     justify-content: flex-start;
+    line-height: 100%!important;
 }
 
 .take-map-button{
@@ -142,6 +144,10 @@ p.tagline-text{
 
 .s-header__container{
     background: #000;
+}
+
+.s-header__logo-link{
+    padding: 0;
 }
 
 @media only screen and (max-width: 768px){
