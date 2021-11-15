@@ -136,6 +136,14 @@ p.tagline-text{
     line-height: 2rem;
 }
 
+.s-header__navbar{
+    background: #000;
+}
+
+.s-header__container{
+    background: #000;
+}
+
 @media only screen and (max-width: 768px){
     .s-header__navbar-row{
         display: flex;
