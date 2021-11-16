@@ -151,6 +151,14 @@ p.tagline-text{
     padding: 0;
 }
 
+.banner-title.banner-title-new{
+    font-size: 3.4375rem !important;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media only screen and (max-width: 768px){
     .s-header__navbar-row{
         display: flex;
